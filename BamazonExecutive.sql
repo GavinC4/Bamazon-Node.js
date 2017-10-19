@@ -9,7 +9,7 @@ PRIMARY KEY(departmentID)
 );
 
 INSERT INTO departments (departmentName, overheadCosts) 
-VALUES ('Instruments', 50000), 
+VALUES ('Hardware', 50000), 
 ('Books', 20000),
 ('Accessories', 15000); 
 
@@ -17,4 +17,3 @@ VALUES ('Instruments', 50000),
 
 USE bamazon;
 SELECT * FROM departments;
-

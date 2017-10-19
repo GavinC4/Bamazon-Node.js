@@ -12,16 +12,16 @@ PRIMARY KEY(itemID)
 );
 
 INSERT INTO products (productName, departmentName, price, stockQuantity) 
-VALUES ('Trumpet', 'Instruments', 300.00, 500), 
-('Saxophone', 'Instruments', 650.00, 350), 
-('Grand Piano', 'Instruments', 1200.00, 200), 
-('Synth', 'Instruments', 950.00, 1000), 
-('Jazz Theory', 'Books', 25.95, 250), 
-('Christmas Favorites', 'Books', 10.50, 425), 
-('Song-writing 101', 'Books', 18.25, 150), 
-('Mouthpiece', 'Accessories', 24.50, 20), 
-('AC Adaptor', 'Accessories', 5.25, 200), 
-('Sax Reeds', 'Accessories', 15.50,100); 
+VALUES ('Monitor', 'Hardware', 300.00, 500), 
+('Laptop', 'Hardware', 650.00, 350), 
+('Gaming Computer', 'Hardware', 1200.00, 200), 
+('Desktop', 'Hardware', 950.00, 1000), 
+('Code Complete', 'Books', 25.95, 250), 
+('Wild Java', 'Books', 10.50, 425), 
+('Javascript 101', 'Books', 18.25, 150), 
+('Mouse', 'Accessories', 24.50, 20), 
+('Mouse Pad', 'Accessories', 5.25, 200), 
+('HDMI Cable', 'Accessories', 15.50,100); 
 
 
 USE bamazon;
