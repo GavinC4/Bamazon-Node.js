@@ -64,7 +64,7 @@ function showList(){
 				.then(updateDBInventory)
 				.then(showList)
 				.then(handleListResponse);
-			// 	select the ID in which you want to UPDATE, type in the quantity you want to add
+			// select the ID in which you want to UPDATE, type in the quantity you want to add
 			// run inquirer ask for the id and quantity
 			// then create a separate functoin to handle add quantity to query the DB - update function 
 			// then run show products with note that it successfully displayed

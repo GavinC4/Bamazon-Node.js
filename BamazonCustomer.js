@@ -84,6 +84,10 @@ function questions() {
         validate: isNumber
 
     }]).then(function(answers) {
+
+
+
+
         searchDB(answers.id, answers.units);
     });
 
@@ -147,7 +151,7 @@ function printReceipt(totalPrice, productName, quantity, id, newQuant) {
 
 function updateTotalSales(totalPrice, deptID) {
     console.log(totalPrice, deptID);
-    return db.query("UPDATE departments SET totalSales = totalSales + " + totalPrice + " WHERE departmentID =" + deptID)
+    return db.query("UPDATE departmentName SET totalSales = totalSales + " + totalPrice + " WHERE departmentName =" + deptID)
         .catch(function(err) {
             console.log(err);
         });

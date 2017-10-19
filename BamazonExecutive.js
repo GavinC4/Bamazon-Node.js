@@ -59,7 +59,7 @@ function showList(){
 
 // pulls all of the data from the DB
 function getProducts() {
-	return db.query("SELECT * FROM departments")
+	return db.query("SELECT * FROM departmentName")
 		.then(function(rows) {
 			return rows[0];
 		})
