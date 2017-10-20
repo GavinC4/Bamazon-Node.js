@@ -3,7 +3,7 @@ var fs = require('fs');
 // ======= NPM MODULES ==========
 var bluebird = require('bluebird');
 var Table = require('cli-table');
-var db = require('mysql2-promise')();
+var db = require('mysql');
 var inquirer = require('inquirer');
 var colors = require('colors');
 var prodIdArray = [];
